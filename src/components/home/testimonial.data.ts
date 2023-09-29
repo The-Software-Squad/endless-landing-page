@@ -15,50 +15,38 @@ export const data: Array<Testimonial> = [
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Exceptional Quality and Timely Delivery!',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'As a busy professional, I appreciate the convenience of online shopping, but quality and delivery speed matter to me. Endless Store exceeded my expectations. The products I received were of exceptional quality, and they arrived faster than I anticipated. Plus, their user-friendly app made the entire process a breeze. I highly recommend Endless Store to anyone seeking top-notch products and reliable service.',
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
+      name: 'Rushi',
+      professional: 'Business Professional',
       photo: '2.jpg',
     },
   },
   {
     id: 3,
-    title: 'Very complete class',
+    title: 'The Ultimate Shopping Destination!',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      "Endless Store is the ultimate shopping destination for tech-savvy individuals like me. Their app is intuitive, making it easy to navigate and find the products I need. What's more, their products are not only stylish but also durable. I've purchased electronics and gadgets from them, and they have consistently met or exceeded my expectations. If you want quality and convenience, look no further than Endless Store",
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      name: 'Varun Guttula',
+      professional: 'Teacher',
       photo: '3.jpg',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Good products!',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      "Endless Store is a fashionista's paradise! Their collection of trendy clothing and accessories is simply outstanding. I've been a regular customer, and each time I'm delighted with my purchases.",
     user: {
       id: 1,
-      name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      name: 'Sai Kumar',
+      professional: 'Student',
       photo: '4.jpg',
-    },
-  },
-  {
-    id: 5,
-    title: 'Detailed learning materials',
-    content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
-    user: {
-      id: 1,
-      name: 'Ashley Graham',
-      professional: 'Back-End Developer',
-      photo: '5.jpg',
     },
   },
 ]
