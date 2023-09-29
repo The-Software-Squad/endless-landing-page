@@ -3,13 +3,13 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Great Quality!',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'We have ordered custom printed tshirts from endless and we are very happy with the quality and service. They are very responsive and quick to answer any questions we had. The shirts are very soft and comfortable. We will definitely be ordering from them again!',
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      name: 'Shaik Basha',
+      professional: 'NSS Club Member',
       photo: '1.jpg',
     },
   },

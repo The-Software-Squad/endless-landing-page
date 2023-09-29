@@ -42,8 +42,8 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
-              <Box
+              <Image src="/images/online-shopping.png" objectFit='cover' width={650} height={678} quality={97} alt="Feature img" />
+              {/* <Box
                 sx={{
                   position: 'absolute',
                   top: -36,
@@ -78,7 +78,7 @@ const HomeFeature: FC = () => {
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
                 </Box>
-              </Box>
+              </Box> */}
 
               <Box
                 sx={{
@@ -103,9 +103,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Bags filled</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    Happiness loade
                   </Typography>
                   <Box
                     sx={{
@@ -117,8 +117,8 @@ const HomeFeature: FC = () => {
                       flexDirection: 'column',
                     }}
                   >
-                    <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                    <Typography variant="h4" sx={{ color: '#000000' }}>
+                      85%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
@@ -131,9 +131,9 @@ const HomeFeature: FC = () => {
                       disableShrink
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={85}
                       size={85}
-                      sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
+                      sx={{ transform: 'rotate(96deg) !important', color: '#8922b5', position: 'absolute' }}
                     />
                   </Box>
                 </Box>
@@ -164,7 +164,7 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                Shopping <br />
                 <Box
                   sx={{
                     position: 'absolute',
@@ -182,8 +182,7 @@ const HomeFeature: FC = () => {
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+              Find whatever you like Endless store provides products with great quality at most effortable prices. We often gives discounts and conducts seaon sales so you can add items you to wishlist and get notification when it will be on sale or discount. And also you can share your wishlist with your friends and family.
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
