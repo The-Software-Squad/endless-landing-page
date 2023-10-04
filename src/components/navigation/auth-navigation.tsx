@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import Box from '@mui/material/Box'
 import { StyledButton } from '@/components/styled-button'
+import Link from 'next/link'
 
 const AuthNavigation: FC = () => {
   return (
@@ -8,7 +9,7 @@ const AuthNavigation: FC = () => {
       {/* <StyledButton disableHoverEffect={true} variant="outlined">
         Sign In
       </StyledButton> */}
-      <StyledButton disableHoverEffect={true}>Contact Us</StyledButton>
+      <a href={"https://wa.me/+919347950166"}> <StyledButton disableHoverEffect={true}>Contact Us</StyledButton></a>
     </Box>
   )
 }
