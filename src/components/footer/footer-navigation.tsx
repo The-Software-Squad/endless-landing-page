@@ -29,7 +29,7 @@ const pageMenu = headerNavigations
 
 const companyMenu: Array<Navigation> = [
   { label: 'Contact Us', path: '#' },
-  { label: 'Privacy & Policy', path: '#' },
+  { label: 'Privacy & Policy', path: '/privacy-policy' },
   { label: 'Term & Condition', path: '#' },
   { label: 'FAQ', path: '#' },
 ]
