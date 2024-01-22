@@ -18,10 +18,10 @@ const FaqBody: FC = () => {
             <p>A. We accept UPI payments, cards, and Cash on Delivery (COD).</p>
 
             <p><strong>How to track an order?</strong></p>
-            <p>A. We will provide a shipment ID so you can track it through our delivery partner's website or application.</p>
+            <p>A. We will provide a shipment ID so you can track it through our delivery partner&apos;s website or application.</p>
 
             <p><strong>Can I change or cancel the order?</strong></p>
-            <p>A. Once the product has been dispatched, you cannot modify the order. You can cancel the order with a proper reason; otherwise, you won't be eligible for COD.</p>
+            <p>A. Once the product has been dispatched, you cannot modify the order. You can cancel the order with a proper reason; otherwise, you won&apos;t be eligible for COD.</p>
 
             <h2>Shipping & Delivery</h2>
             <p><strong>Shipping cost & time?</strong></p>
@@ -31,7 +31,7 @@ const FaqBody: FC = () => {
             <p>A. In some circumstances, your order may get delayed. In that case, you can contact our support team, and they will help you get your order delivered to you, or you can raise a request for a refund.</p>
 
             <p><strong>How can I return my order? (Please do add it in our policies)</strong></p>
-            <p>A. To return an order, you have to provide a valid reason, such as if the product doesn't match the description or if the product has a manufacturing defect or is damaged. To return a product, you should have all the box contents, the bill, and the box.</p>
+            <p>A. To return an order, you have to provide a valid reason, such as if the product doesn&apos;t match the description or if the product has a manufacturing defect or is damaged. To return a product, you should have all the box contents, the bill, and the box.</p>
 
             <h2>Return and Refund</h2>
             <p><strong>Return period?</strong></p>
@@ -48,7 +48,7 @@ const FaqBody: FC = () => {
 
             <h2>Account Management</h2>
             <p><strong>How can I update my personal information in the app?</strong></p>
-            <p>A. You can update your profile information and delivery address through the "Edit Profile" option in the profile section of the app.</p>
+            <p>A. You can update your profile information and delivery address through the &ldquo;Edit Profile&ldquo; option in the profile section of the app.</p>
 
             <p><strong>Is there any tutorial of app functionality?</strong></p>
             <p>A. You can watch app tutorials on our official YouTube channel.</p>
