@@ -1,11 +1,12 @@
+import { Padding } from '@mui/icons-material'
 import React, { FC } from 'react'
 
 const PrivacyPolicyBody: FC = () => {
     return (
-        <>
+        <div style={{ padding: 20 + "px" }}>
             <h1>Privacy Policy</h1>
 
-            <p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from <a href="[Store URL]">Store URL</a>.</p>
+            <p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from <a href="https://endlessstore.in/">Store URL</a>.</p>
 
             <h2>Personal Information we collect</h2>
 
@@ -50,7 +51,7 @@ const PrivacyPolicyBody: FC = () => {
             <h2>Contact us</h2>
 
             <p>If you have any questions about our privacy policy, please contact us at <a href="mailto:endlessstore.in.co@gmail.com">endlessstore.in.co@gmail.com</a>.</p>
-        </>
+        </div>
     )
 }
 
